@@ -9,7 +9,7 @@ fi
 dir_jbot=$root/jbot
 dir_diy=$dir_jbot/diy
 dir_repo=$root/repo
-url="https://raw.githubusercontent.com/New-Sina/Oreomeow_JD_Diy/master/jbot/diy/user.py"
+url="https://cdn.jsdelivr.net/gh/New-Sina/Oreomeow_JD_Diy@master/jbot/diy/user.py"
 file_user=$dir_diy/user.py
 bot_set=$root/config/diybotset.json
 
