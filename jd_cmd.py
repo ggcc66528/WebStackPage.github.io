@@ -23,5 +23,6 @@ async def jd_cmd(context):
         data = data["data"]
         await context.edit(f"{data['jumpUrl']}")
         ##await context.edit(f"\"{Url}\"")
+        await context.edit(f"{data['jumpUrl']}")
     except KeyError:
         return await context.edit("[jd_cmd] 数据错误！")
