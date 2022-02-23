@@ -23,6 +23,9 @@ async def jd_cmd(context):
         data = data["data"]
         await context.edit(f"{data['jumpUrl']}")
         ##await context.edit(f"\"{Url}\"")
-        await context.edit(f"{jumpUrl['activityId=']}")
+        await context.edit(f"{data['jumpUrl']}-{data['title']}")
+   ## try:
+   ##     data = data["data"]
+   ##     await context.edit(f"[jd_cmd] [【{data['title']}】 - {data['userName']}]({data['jumpUrl']})")        
     except KeyError:
         return await context.edit("[jd_cmd] 数据错误！")
